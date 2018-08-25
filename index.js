@@ -17,7 +17,3 @@ new Waypoint({
     },
     offset: 800
 });
-
-// new Waypoint{
-//     element: 
-// }
