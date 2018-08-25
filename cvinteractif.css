@@ -43,37 +43,7 @@
 .banner {
 background-image: linear-gradient(to right top, #391264, #5d0e5e, #410b59, #420753, #85348d);
 }
-  .partical {
-      width: 100%;
-      height: 40%;
-      overflow: hidden;
-  }
-
-  .p {
-      position: fixed;
-      left: 0px;
-      top: 60px;
-      width: 2px;
-      height: 3px;
-      background-color: white;
-      position: fixed;
-      animation-name: particleAnimation;
-      animation-timing-function: linear;
-      animation-iteration-count: infinite;
-  }
-
-  .p::before {
-      position: absolute;
-      display: block;
-      content: "";
-      width: 100px;
-      right: 1px;
-      top: 0px;
-      height: 1px;
-      background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.4) 100%);
-  }
-
-
+  
   .sticky {
       position: sticky;
       top: 0;
