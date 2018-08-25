@@ -226,7 +226,7 @@ h1 span::after {
 }
 
   .d-none {
-      display: none;
+      display: block;
   }
 
   
@@ -493,7 +493,7 @@ top: 50%;
 
 position: absolute;
 
-left: 50%;
+left:40%;
 
 transform: translate(-50%, -50%);
 }
