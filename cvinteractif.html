@@ -1,0 +1,398 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>CV_Mestraletti_Charline</title>
+    <link rel="stylesheet" href="cvinteractif.css">
+    <script src="details-polyfill.js"></script>
+    <script src="smooth-scroll.min.js"></script>
+    <script src="noframework.waypoints.min.js"></script>
+    <script src="index.js" defer></script>
+    <link rel="icon" type="image/png" href="Ressources/favicon.png">
+</head>
+
+
+
+
+<body>
+    <!--    <header class="radiant"> mettre un overflow sur les étoiles-->
+    <header class="banner" id="top">
+
+
+        <h1 id="name">Charline
+            <br> Mestraletti
+        </h1>
+
+
+        <!--        Réaliser des étoiles qui bouge pour habiller le header-->
+
+        <img src="Ressources/banner2.svg" style="display: block;">
+        <a style="bottom: 35px" class="arrow bounce" href="#who"></a>
+        <a class="arrow bounce" href="#who"></a>
+
+
+    </header>
+
+    <div class="color">
+
+        <nav class="flex-parent flex-justify-center main-nav sticky" id="main-nav">
+            <ul class="flex-parent flex-space-between">
+
+
+                <li class="nav-item">
+                    <a href="#who" class="nav-item-link">
+                        <span class="nav-item-text">À propos</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-item-link">
+                        <span class="nav-item-text">Compétences</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#xp" class="nav-item-link">
+                        <span class="nav-item-text">Expériences</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-item-link">
+                        <span class="nav-item-text">Projets</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-item-link">
+                        <span class="nav-item-text">Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="conteneur">
+
+            <section id="who">
+                <h1>
+                    <span class="pulse">À propos</span>
+                </h1>
+                <h2>
+                    Bonjour !
+                </h2>
+                <img src="Ressources/photo2.png" id="pic">
+                <h3 class="view-hidden im">
+                    Je m’appelle
+                    <em class="cm">Charline Mestraletti</em>.
+                </h3>
+
+
+                <!--                Stylise les em avec de la couleur et les faire ressortir-->
+                <p class="presentation">
+                    Je suis une
+                    <em>étudiante en DUT MMI</em> (Métiers du Multimédia et de l’Internet) à Champs-sur-Marne. Je suis avant
+                    tout une personne
+                    <em>ingénieuse et joviale</em>. Quand je travaille je cherche à être
+                    <em>polyvalente</em> dans ce que je réalise. Je suis
+                    <em> créative </em>et capable réaliser mon univers, c’est pour cela que je dessine et publie certains de mes
+                    dessins sur la toile. J‘essaie de mener à bien mes projets personnels et d’
+                    <em>allez au contact des autres</em> si des compétences me manques. J’ai l’
+                    <em>esprit d’équipe </em>et ai l’habitude de travailler en groupe en tenant compte des personnalités de chacun.
+                    <em> Mes passions</em>, j’adore cuisiner et partager mes petits plats. J’aime aussi lire des mangas, des
+                    BD, des articles et de la littérature. Je me ressource en faisant des balades. Je suis aussi également
+                    une mordue des chats.
+                </p>
+
+
+
+
+            </section>
+
+            <section id="skills">
+                <h1>
+                    <span class="pulse">Compétences</span>
+                </h1>
+                <div class="flex-parent flex-wrap justify-content-center">
+
+                    <!--                   ici on rajoute un truc en mode langue, logiciel , language web-->
+                    <div class="skill-item col-4">
+                        <img class="skill-item-icon" src="Ressources/Flag_of_France.svg">
+                        <div class="progress-bar">
+
+                            <div class="inner-barFR">
+                            </div>
+                        </div>
+
+
+                        <details>
+                            <summary>Plus d'infos</summary>
+
+                            <p class="skill-item-description">
+                                Le français, je me dois de dire que c'est ma première compétence. Je l'apprends depuis que je suis petite et le pratique tous
+                                les jours. Ce qui est logique vu que je suis française.
+                            </p>
+                        </details>
+                    </div>
+
+                    <div class="skill-item col-4">
+                        <img class="skill-item-icon" src="Ressources/Flag_of_the_United_Kingdom.svg">
+                        <div class="progress-bar">
+                            <div class="inner-barEN"></div>
+                          
+                        </div>
+
+                        <details>
+                            <summary>Plus d'infos</summary>
+                            <p class="skill-item-description"> L'anglais, je l'apprends aussi depuis petite mais j'estime m'etre réellement formée à partir
+                                de 2012. Aujourd'hui je suis capable de comprendre, écrire et parler. Mon niveau actuel est
+                                C1.
+                            </p>
+                        </details>
+
+
+                      
+                    </div>
+                    <div class="skill-item col-4">
+                        <img class="skill-item-icon" src="Ressources/Calligra_Krita_icon.svg">
+                        <div class="progress-bar">
+                            <div class="inner-barK"></div>
+                        </div>
+                        <details>
+                            <summary>Plus d'infos</summary>
+                            <p class="skill-item-description">Krita un logiciel de dessin numérique. D'abord utilisé en 2012 j'ai acquéris un niveau intermédiaire
+                                dans son utilisation. Je suis capable de réaliser un gif, une animation ou un simple dessin.</p>
+                        </details>
+                    </div>
+                    <div class="skill-item col-4">
+                       
+                        <img class="skill-item-icon" src="Ressources/Photoshop.svg">
+                        <div class="progress-bar">
+                            <div class="inner-barPS"></div>
+                        </div>
+                        <details>
+                            <summary>Plus d'infos</summary>
+                            <p class="skill-item-description"> Photoshop, je suis capable de réaliser une maquette. Grâce à Photoshop j'ai pu apprendre la réalisation
+                                de gif, comprendre certains aspects de la colorimétrie dans une photo et les photos-montages
+                                basiques. </p>
+                        </details>
+                    </div>
+                    <div class="skill-item col-4">
+                        <img class="skill-item-icon" src="Ressources/Illustator.svg">
+                        <div class="progress-bar">
+                            <div class="inner-barIL"></div>
+                        </div>
+                        <details>
+                            <summary>Plus d'infos</summary>
+                            <p class="skill-item-description"> Illustrator. Je suis capable de réaliser un motif ou logo, un fond d'écran ou une banière. Grâce
+                                à Illustator. J'ai pu découvrir le format SVG mais également apprendre un nouveau style de
+                                dessin basé sur la géométrie.</p>
+                        </details>
+                    </div>
+                    <div class=" skill-item col-4">
+                        <img class="skill-item-icon" src="Ressources/Indesign.svg">
+                        <div class="progress-bar">
+                            <div class="inner-barID"></div>
+                        </div>
+                        <details>
+                            <summary>Plus d'infos</summary>
+                            <p class="skill-item-description">InDesign. J'ai appris à réaliser un magazine sur ce logiciel, il permet de réaliser des pages
+                                ou des slides de façon très stylisée. Je ne me suis pas beaucoup servit de ce logiciel mais j'ai
+                                acquéri des notions </p>
+                        </details>
+                    </div>
+                    <div class=" skill-item col-4">
+                        <img class="skill-item-icon" src="Ressources/premierepro.svg">
+                        <div class="progress-bar">
+                            <div class="inner-barPR"></div>
+                        </div>
+                        <details>
+                            <summary>Plus d'infos</summary>
+                            <p class="skill-item-description">PremierePro est un logiciel de montage vidéo, je suis capable de réaliser un montage ou éditer
+                                une vidéo, d'y ajouter une bande son et maitriser les transitions ! J'ai compris les bases.
+                            </p>
+                        </details>
+                    </div>
+
+                    <div class="skill-item col-4">
+                        <img class="skill-item-icon" src="Ressources/AfterEffect.svg">
+                        <div class="progress-bar">
+                            <div class="inner-barAE"></div>
+                        </div>
+                        <details>
+                            <summary>Plus d'infos</summary>
+                            <p class="skill-item-description"> After Efect est un logiciel vidéo permettant de réaliser des effets spéciaux. J'ai compris les
+                                bases de ce logiciel et je suis capable de réaliser une incrustation fond vert mais j'ai
+                                pu également m'intéresser au motion design</p>
+                        </details>
+                    </div>
+                    <div class="skill-item col-4">
+                        <img class="skill-item-icon" src="Ressources/2018-04-10%2023_13_39-Cubism%203%20_%20Live2D.png" alt="logo de Live2D cubism">
+                        <div class="progress-bar">
+                            <div class="inner-bar2D"></div>
+                        </div>
+                        <details>
+                            <summary>Plus d'infos</summary>
+                            <p class="skill-item-description"> Cubism est un logiciel de modélisation. il permet de créer des animations intéractifs de personnages
+                                ou animaux ou encore d'objets statiques. Je suis une novice dans ce logiciel car j'ai commencé
+                                son utilisation en mars 2018 mais je compte acquérir plus de compétences au fil du temps</p>
+                        </details>
+                    </div>
+                    <div class="skill-item col-4">
+                        <img class="skill-item-icon" src="Ressources/html-5.svg">
+
+                        <div class="progress-bar">
+                            <div class="inner-barHTML"></div>
+                        </div>
+                        <details>
+
+                            <summary>Plus d'infos</summary>
+                            <p class="skill-item-description">L'html permet la réalisation de page web ou de site. Je possède des bases nécéssaires pour réaliser des sites et des pages.
+                            </p>
+                        </details>
+                    </div>
+
+                    <div class="skill-item col-4">
+                        <img class="skill-item-icon" src="Ressources/css-3.svg" alt="logo CSS3">
+                        <div class="progress-bar">
+                            <div class="inner-barCSS"></div>
+                        </div>
+                        <details>
+                            <summary>Plus d'infos</summary>
+                            <p class="skill-item-description"> Mais que serait l' HTML sans son CSS ? surtout pour la réalisation de page / site web. Je maîtrise
+                                les bases du CSS.</p>
+                        </details>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section id="xp">
+                <h1>
+                    <span class="pulse">Expériences</span>
+                </h1>
+                <h2 class="xp-title">2017-2019</h2>
+                <p class="xp-text">En septembre 2017, je suis rentrée dans la formation du DUT MMI. Du design à la vidéo en passant par l'intégration
+                    et la programmation cette formation est très riche. C'est dans le cadre de cette formation que j'ai pu
+                    grâce aux nombreux projets à réaliser  acquérir de l'expérience sur la suite Adobe, mais également
+                    dans les autres matières comme l'HTML et le CSS mais aussi des notions dans le relationnel et le communicationnelle.
+                    Dans le cadre d'un projet d'étude, j'ai été la graphiste et j'ai réalisé le développement Front end du site
+                    Cactus.Vitae. Ce projet m'a permis d'acquérir une certaine expérience dans la production d'un site et
+                    de sa réalisation.
+                </p>
+                <h2 class="xp-title">2016-2017</h2>
+                <p class="xp-text">En juin 2017, j'ai obtenu mon baccalauréat littéraire avec mention Assez Bien. Durant cette année j'ai également
+                    été bénévole au bureau des étudiants de mon lycée afin d'organiser des sorties, gérer un budget et aller
+                    à la rencontre des autres.
+                    </p>
+                <h2 class="xp-title">2014</h2>
+                <p class="xp-text">Réalisation de stage de troisième dans le domaine de la vente aux détails au magasin Ambiance Cocina à Melun</p>
+
+
+
+            </section>
+
+            <section id="projects">
+                <h1>
+                    <span class="pulse">Mes projets</span>
+                </h1>
+                
+
+
+                <div class="grid-container">
+
+                    <div>
+                        <p class="project-text">Dessins sur Deviantart </p>
+                        <div class="project-container">
+                            <a href="https://nekoneko-chanz.deviantart.com/" target="_blank">
+
+                                <img src="Ressources/Astrid.jpg" class="project-img">
+                                <p class="click-me">ヾ(☆▽☆)
+                                    </p>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div>
+                        <p class="project-text">Dessins sur Pixiv</p>
+                        <div class="project-container" > 
+                            <a href="https://www.pixiv.net/member.php?id=28246461" target="_blank">
+                                <img src="Ressources/paysage.jpg" class="project-img">
+                                <p class="click-me"> ヾ(・ω・ｏ)
+                                </p>
+                            </a>
+                        </div>
+
+                    </div>
+
+
+
+                    <div>
+                        <p class="project-text">Animation sur Youtube </p>
+                        <div class="project-container">
+                            <a href="https://www.youtube.com/results?search_query=charlinu+neko" target="_blank">
+                                <img src="Ressources/avatar.jpg" class="project-img">
+                                <p class="click-me"> ( ･ω･)ﾉ
+                                </p>
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                    <div>
+
+
+                    </div>
+                    <div>
+                        <p class="project-text">Portait Chinois </p>
+                        <div class="project-container">
+                        <a href="https://perso-etudiant.u-pem.fr/~cmestral/Portrait_Chinois/" target="_blank">
+                            <div class="re-size">
+                                <img src="Ressources/Portraitchinois.png" class="project-img">
+                                <p class="click-me"> (*＾▽＾)／
+                                </p>
+                            </div>
+                        </div>
+                        </a>
+                    </div>
+                    <div>
+
+
+                    </div>
+
+                
+
+        </div>
+        </section>
+
+        <section id="contact">
+            <h1>
+                <span class="pulse"> Contact</span>
+            </h1>
+
+            <div class="grid-container-contact">
+
+                <div>
+                    <a href="mailto:charline.mestraletti@gmail.com" class="contact-txt">charline.mestraletti@gmail.com</a>
+
+                </div>
+                <div>
+                    <a href="tel:0668180658" class="contact-txt"> 0668180658</a>
+                </div>
+
+
+            </div>
+
+
+        </section>
+        <div class="flex-parent flex-justify-center">
+
+            <div>
+                <a href="#top">
+                    <img src="Ressources/logo.svg" width="120px"class="logo-m"> </a>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    
+</body>
+
+</html>
